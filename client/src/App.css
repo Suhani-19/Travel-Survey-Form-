@@ -1,0 +1,128 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("Travel_bg.jpeg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 150vh;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: hsl(300, 100%, 1%);
+
+}
+
+.form-box {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f2f0ef;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-box label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-box input, 
+.form-box textarea,
+.form-box select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-box input[type="range"] {
+  width: 100%;
+  margin-bottom: 15px;
+} 
+
+.input-line {
+  border: none;
+  border-bottom: 2px solid #aaa;
+  outline: none;
+  width: 100%;
+  padding: 8px 4px;
+  background: transparent;
+  font-size: 18px;
+  transition: border-color 0.3s ease;
+}
+
+.input-line:focus {
+  border-bottom: 2px solid #007bff; /* Blue or any theme color */
+}
+
+.form-box button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  /* color: white; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background-color: #0056b3;
+}
+.page-container {
+   background-image: url("Travel_bg.jpeg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  background-color: #080808; 
+}
+
+.content-box {
+   background-color: #f2f0ef;  
+   background-image: url("travelpattern.jpg");
+   /* opacity: 0.6; */
+   background-blend-mode:overlay;
+  background-size: cover;
+  padding: 40px;
+  /* border-color: black; */
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+  width: 800px;
+}
+.content-box h2 {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.form-group {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.form-group input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #007bff; /* modern browsers */
+  cursor: pointer;
+}
+
+.required {
+  color: red;
+  margin-right: 4px;
+}
+
+
+
+
+
